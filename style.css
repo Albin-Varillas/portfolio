@@ -114,3 +114,20 @@ body {
     border-radius: 20px;
     padding: 5px 15px;
 }
+
+@media only screen and (max-width: 480px) {
+    .intro-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 25px 0 25px;
+    }
+    .work-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 100px 25px 0 25px;
+    }
+}
