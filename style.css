@@ -46,8 +46,8 @@ body {
 }
 
 .icons {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
 }
 
 .intro-box {
@@ -55,9 +55,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1000px;
+    max-width: 1024px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
     gap: 20px;
 }
 
@@ -67,8 +67,7 @@ body {
 
 .intro-text h1 {
     font-size: 48px;
-    line-height: 1;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .intro-text p {
@@ -84,6 +83,7 @@ body {
     border: 1px solid black;
     background: white;
     font-size: 14px;
+    line-height: 20px;
     color: black;
     cursor: pointer;
 }
@@ -93,9 +93,9 @@ button:hover {
 }
 
 .work-container {
-    max-width: 1000px;
+    max-width: 1024px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .work-container h2 {
@@ -129,13 +129,12 @@ button:hover {
 }
 
 .project {
-    max-width: 1000px;
+    max-width: 1024px;
     height: 450px;
     margin: 50px auto;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
-    background: #26262699;
 }
 
 .img-container {
@@ -189,7 +188,7 @@ button:hover {
     padding: 5px 0 8px 0;
     cursor: pointer;
     font-family: "Piazzolla", serif;
-    margin: 10px 0;
+    margin-top: 10px;
 }
 
 .footer-license {
@@ -201,33 +200,29 @@ button:hover {
     padding: 30px;
 }
 
-.titel {
-    margin-top: 40px;
-}
-
 @media screen and (max-width: 768px) {
     .intro-box {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: column;
+    }
+
+    .intro-text h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .project {
+        height: 350px;
+        margin: 40px auto;
+    }
+
+    .project-text {
+        padding: 20px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .intro-box {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin: 0 20px 0 20px;
-    }
-    .work-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin: 100px 25px 0 25px;
+    .intro-img img {
+        height: 60vh;
     }
 
     .intro-text h1 {
@@ -235,8 +230,27 @@ button:hover {
         line-height: 32px;
     }
 
-    .intro-text p {
-        font-size: 12px;
-        line-height: 16px;
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .work-container h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .project-text h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .project {
+        height: 250px;
+        margin: 30px auto;
+    }
+
+    .project-text {
+        padding: 15px;
     }
 }
