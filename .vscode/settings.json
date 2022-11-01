@@ -3,5 +3,6 @@
     "prettier.useEditorConfig": false,
     "prettier.useTabs": false,
     "prettier.tabWidth": 4,
-    "liveServer.settings.port": 5502
+    "liveServer.settings.port": 5502,
+    "cSpell.words": ["Albin", "Varillas"]
 }
